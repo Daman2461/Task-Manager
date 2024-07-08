@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #1c1c1e;
+    color: #f5f5f7;
+    text-align: center;
+}
+
+.content {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #2c2c2e;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 1.2em;
+    color: #aeaeb2;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #3a3a3c;
+}
+
+th {
+    background-color: #3a3a3c;
+    font-weight: bold;
+    color: #f5f5f7;
+}
+
+td a {
+    color: #e6e6e6;
+    text-decoration: none;
+    padding: 5px;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+form {
+    margin-top: 30px;
+}
+
+input[type="text"],input[type='password'] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #3a3a3c;
+    color: #f5f5f7;
+}
+
+input[type="text"],input[type='password']::placeholder {
+    color: #aeaeb2;
+}
+a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #e6e6e6;
+    border: 1px solid #e6e6e6;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a:hover {
+    background-color: #e6e6e6;
+    color: #fff;
+}
+input[type="submit"] {
+    background-color: #0a84ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #007aff;
+}
