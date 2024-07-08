@@ -1,5 +1,6 @@
 # Task-Manager
 ## Todo List Application
+![image](https://github.com/Daman2461/Task-Manager/assets/142651012/28bfc74c-6a59-443b-b5ba-3f85a90a834c)
 
 ## Overview
 This Todo List Application is a web-based task management system built using Flask, SQLAlchemy, and Jinja2. The application allows users to sign up, log in, and manage their personal todo lists. It supports basic CRUD (Create, Read, Update, Delete) operations on tasks and utilizes modern ARM (Authentication, Role-based Management) principles for user management.
